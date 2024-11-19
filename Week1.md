@@ -1,5 +1,3 @@
-# Week 1
-
 ## 200. Number of Islands
 Loop through array, once find a '1', use DFS to mark 4 direction to 0 and count + 1
 ## 204. Count Primes
