@@ -1,3 +1,4 @@
+# 19 - 12/23/2024
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 3. Longest Substring Without Repeating Characters
@@ -11,7 +12,9 @@ and this behavior is due to two's complement representation.
 ## 15. 3Sum
 ## 49. Group Anagrams
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
+## 88. Merge Sorted Array
 ## 128. Longest Consecutive Sequence
+## 162. Find Peak Element
 ## 200. Number of Islands
 Loop through array, once find a '1', use DFS to mark 4 direction to 0 and count + 1
 ## 204. Count Primes
@@ -20,7 +23,11 @@ Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if
 Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
+## 344. Reverse String
 ## 347. Top K Frequent Elements
+## 383. Ransom Note
+Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
+## 459. Repeated Substring Pattern
 
 
 
