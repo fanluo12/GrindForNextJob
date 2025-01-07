@@ -37,6 +37,8 @@ Use int array to store s.charAt(i) - 'a'
 ## 383. Ransom Note
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
 ## 459. Repeated Substring Pattern
+## 637. Average of Levels in Binary Tree
+Using level order traversal, note that for each level, define a double variable to calculate sum for each level
 
 
 
