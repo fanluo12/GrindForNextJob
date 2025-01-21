@@ -26,6 +26,8 @@ Find minimum single price and in the same time find maximum profit
 ## 125. Valid Palindrome
 ## 128. Longest Consecutive Sequence
 ## 162. Find Peak Element
+## 169. Majority Element
+Declare majority number as nums[0] and count as 1, looping starts from index 1, once nums[i] == majority number, count ++, else count --, once count = 0, set current nums[i] as majority number
 ## 200. Number of Islands
 Loop through array, once find a '1', use DFS to mark 4 direction to 0 and count + 1
 ## 204. Count Primes
