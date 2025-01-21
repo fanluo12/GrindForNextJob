@@ -16,6 +16,8 @@ and this behavior is due to two's complement representation.
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
+## 80. Remove Duplicates from Sorted Array II
+Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon as nums[left - 2] != nums[right], make nums[left] = nums[right]
 ## 88. Merge Sorted Array
 ## 102. Binary Tree Level Order Traversal
 Use queue to store all the nodes, for each level, get queue size first, then loop through each level to get all the nodes' vals and add left/right sub-nodes to queue
