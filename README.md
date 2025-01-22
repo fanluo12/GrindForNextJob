@@ -1,4 +1,3 @@
-# 24 - 12/23/2024
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 3. Longest Substring Without Repeating Characters
