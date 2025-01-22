@@ -20,6 +20,8 @@ Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon 
 ## 88. Merge Sorted Array
 ## 102. Binary Tree Level Order Traversal
 Use queue to store all the nodes, for each level, get queue size first, then loop through each level to get all the nodes' vals and add left/right sub-nodes to queue
+## 120. Triangle
+[4, 1, 8, 3, 0] -> []
 ## 121. Best Time to Buy and Sell Stock
 Find minimum single price and in the same time find maximum profit
 ## 125. Valid Palindrome
