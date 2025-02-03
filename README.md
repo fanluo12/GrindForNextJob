@@ -11,6 +11,8 @@ and this behavior is due to two's complement representation.
 ## 15. 3Sum
 ## 26. Remove Duplicates from Sorted Array
 ## 27. Remove Element
+## 28. Find the Index of the First Occurrence in a String
+Loop through string, for each index, use while loop to update needle index starting from 0, once finish updating, check if index ends at tail position of needle
 ## 49. Group Anagrams
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
 ## 70. Climbing Stairs
