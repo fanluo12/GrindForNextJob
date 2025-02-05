@@ -13,6 +13,8 @@ and this behavior is due to two's complement representation.
 ## 27. Remove Element
 ## 28. Find the Index of the First Occurrence in a String
 Loop through string, for each index, use while loop to update needle index starting from 0, once finish updating, check if index ends at tail position of needle
+## 42. Trapping Rain Water
+Two pointers starting from 0 and length - 1 index
 ## 49. Group Anagrams
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
 ## 70. Climbing Stairs
@@ -26,6 +28,8 @@ Use queue to store all the nodes, for each level, get queue size first, then loo
 [4, 1, 8, 3, 0] -> []
 ## 121. Best Time to Buy and Sell Stock
 Find minimum single price and in the same time find maximum profit
+## 122. Best Time to Buy and Sell Stock II
+Loop through prices array starting from index 1, as soon as current price greater than before, update profit value
 ## 125. Valid Palindrome
 ## 128. Longest Consecutive Sequence
 ## 162. Find Peak Element
