@@ -34,8 +34,10 @@ Find minimum single price and in the same time find maximum profit
 Loop through prices array starting from index 1, as soon as current price greater than before, update profit value
 ## 125. Valid Palindrome
 ## 128. Longest Consecutive Sequence
+## 134. Gas Station
 ## 149. Max Points on a Line
 Loop through each point, for each point inner loop through points except for it. There are 3 cases, 1st is duplicates, this will need to be count also. 2nd is vertical, which dy dx is 0. 3rd will need to calculate slope and put into map as double
+## 151. Reverse Words in a String
 ## 162. Find Peak Element
 ## 169. Majority Element
 Declare majority number as nums[0] and count as 1, looping starts from index 1, once nums[i] == majority number, count ++, else count --, once count = 0, set current nums[i] as majority number
