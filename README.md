@@ -17,8 +17,8 @@ Loop through string, for each index, use while loop to update needle index start
 Two pointers starting from 0 and length - 1 index
 ## 49. Group Anagrams
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
+## 58. Length of Last Word
 ## 64. Minimum Path Sum
-
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
 ## 80. Remove Duplicates from Sorted Array II
@@ -37,10 +37,15 @@ Loop through prices array starting from index 1, as soon as current price greate
 ## 134. Gas Station
 ## 149. Max Points on a Line
 Loop through each point, for each point inner loop through points except for it. There are 3 cases, 1st is duplicates, this will need to be count also. 2nd is vertical, which dy dx is 0. 3rd will need to calculate slope and put into map as double
+## 150. Evaluate Reverse Polish Notation
 ## 151. Reverse Words in a String
 ## 162. Find Peak Element
+## 167. Two Sum II - Input Array Is Sorted
 ## 169. Majority Element
 Declare majority number as nums[0] and count as 1, looping starts from index 1, once nums[i] == majority number, count ++, else count --, once count = 0, set current nums[i] as majority number
+## 189. Rotate Array
+nums = "----->-->"; k =3 result = "-->----->";
+reverse "----->-->" we can get "<--<-----" reverse "<--" we can get "--><-----" reverse "<-----" we can get "-->----->"
 ## 198. House Robber
 Use 1D dp array to update socre, dp[0] = nums[0], dp[1] = Math.max(nums[0], nums[1]), starting from index 2, dp[i] = max(dp[i] + nums[i - 2], dp[i - 1]). Note for case [2, 1, 1, 2], output is 4 for index 0 & 3. Not adjacent meaning dp[1] is max(nums[0], nums[1) instead of nums[1]
 ## 200. Number of Islands
@@ -57,6 +62,7 @@ Use int array to store s.charAt(i) - 'a'
 ## 347. Top K Frequent Elements
 ## 383. Ransom Note
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
+## 392. Is Subsequence
 ## 459. Repeated Substring Pattern
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
