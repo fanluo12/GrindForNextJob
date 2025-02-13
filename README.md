@@ -24,8 +24,13 @@ Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointe
 ## 80. Remove Duplicates from Sorted Array II
 Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon as nums[left - 2] != nums[right], make nums[left] = nums[right]
 ## 88. Merge Sorted Array
+## 100. Same Tree
+## 101. Symmetric Tree
 ## 102. Binary Tree Level Order Traversal
 Use queue to store all the nodes, for each level, get queue size first, then loop through each level to get all the nodes' vals and add left/right sub-nodes to queue
+## 104. Maximum Depth of Binary Tree
+BFS update depth
+## 112. Path Sum
 ## 120. Triangle
 [4, 1, 8, 3, 0] -> []
 ## 121. Best Time to Buy and Sell Stock
@@ -56,6 +61,7 @@ Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if
 
 ## 217. Contains Duplicate
 Loop through array, use hashset to store. Once !set.add(n) => return true;
+## 226. Invert Binary Tree
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
 ## 344. Reverse String
