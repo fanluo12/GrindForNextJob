@@ -9,6 +9,7 @@ and this behavior is due to two's complement representation.
 ## 9. Palindrome Number
 ## 11. Container With Most Water
 ## 15. 3Sum
+## 20. Valid Parentheses
 ## 26. Remove Duplicates from Sorted Array
 ## 27. Remove Element
 ## 28. Find the Index of the First Occurrence in a String
@@ -18,6 +19,7 @@ Two pointers starting from 0 and length - 1 index
 ## 49. Group Anagrams
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
 ## 58. Length of Last Word
+## 63. Unique Paths II
 ## 64. Minimum Path Sum
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
@@ -55,15 +57,18 @@ reverse "----->-->" we can get "<--<-----" reverse "<--" we can get "--><-----" 
 Use 1D dp array to update socre, dp[0] = nums[0], dp[1] = Math.max(nums[0], nums[1]), starting from index 2, dp[i] = max(dp[i] + nums[i - 2], dp[i - 1]). Note for case [2, 1, 1, 2], output is 4 for index 0 & 3. Not adjacent meaning dp[1] is max(nums[0], nums[1) instead of nums[1]
 ## 200. Number of Islands
 Loop through array, once find a '1', use DFS to mark 4 direction to 0 and count + 1
+## 202. Happy Number
+Careful with cycle
 ## 204. Count Primes
 Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if it is false(definately true for 2), count ++, in the meantime, looping pivot j from 2 until i * j < n and makr rest of them in array as true
 ## 205. Isomorphic Strings
-
+## 209. Minimum Size Subarray Sum
 ## 217. Contains Duplicate
 Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 226. Invert Binary Tree
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
+## 290. Word Pattern
 ## 344. Reverse String
 ## 347. Top K Frequent Elements
 ## 383. Ransom Note
