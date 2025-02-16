@@ -16,8 +16,11 @@ and this behavior is due to two's complement representation.
 Loop through string, for each index, use while loop to update needle index starting from 0, once finish updating, check if index ends at tail position of needle
 ## 42. Trapping Rain Water
 Two pointers starting from 0 and length - 1 index
+## 45. Jump Game II
 ## 49. Group Anagrams
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
+## 55. Jump Game
+Update maxIndex variable when looping. Once maxIndex < current index, return false since it cannot reaches end
 ## 56. Merge Intervals
 ## 58. Length of Last Word
 ## 63. Unique Paths II
@@ -71,11 +74,15 @@ Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if
 Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 226. Invert Binary Tree
 ## 228. Summary Ranges
+## 238. Product of Array Except Self
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
+## 274. H-Index
+Sort and looping through new array, once current value >= length - current index, return length - current index
 ## 290. Word Pattern
 ## 344. Reverse String
 ## 347. Top K Frequent Elements
+## 380. Insert Delete GetRandom O(1)
 ## 383. Ransom Note
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
 ## 392. Is Subsequence
