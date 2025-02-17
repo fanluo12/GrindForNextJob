@@ -14,6 +14,7 @@ and this behavior is due to two's complement representation.
 ## 27. Remove Element
 ## 28. Find the Index of the First Occurrence in a String
 Loop through string, for each index, use while loop to update needle index starting from 0, once finish updating, check if index ends at tail position of needle
+## 35. Search Insert Position
 ## 42. Trapping Rain Water
 Two pointers starting from 0 and length - 1 index
 ## 45. Jump Game II
@@ -25,6 +26,7 @@ Update maxIndex variable when looping. Once maxIndex < current index, return fal
 ## 58. Length of Last Word
 ## 63. Unique Paths II
 ## 64. Minimum Path Sum
+## 66. Plus One
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
 ## 80. Remove Duplicates from Sorted Array II
@@ -70,6 +72,7 @@ Careful with cycle
 Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if it is false(definately true for 2), count ++, in the meantime, looping pivot j from 2 until i * j < n and makr rest of them in array as true
 ## 205. Isomorphic Strings
 ## 209. Minimum Size Subarray Sum
+## 215. Kth Largest Element in an Array
 ## 217. Contains Duplicate
 Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 226. Invert Binary Tree
@@ -80,8 +83,11 @@ Use int array to store s.charAt(i) - 'a'
 ## 274. H-Index
 Sort and looping through new array, once current value >= length - current index, return length - current index
 ## 290. Word Pattern
+## 322. Coin Change
 ## 344. Reverse String
 ## 347. Top K Frequent Elements
+Put all first k element in nums1 and nums2[0] into pq, then updating elements in nums2 to pq in while loop
+## 373. Find K Pairs with Smallest Sums
 ## 380. Insert Delete GetRandom O(1)
 ## 383. Ransom Note
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
