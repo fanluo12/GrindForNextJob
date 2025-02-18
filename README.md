@@ -8,6 +8,8 @@ Key point is testing overflow for case 1534236469. When reversing finishes, it b
 and this behavior is due to two's complement representation.
 ## 9. Palindrome Number
 ## 11. Container With Most Water
+## 12. Integer to Roman
+## 13. Roman to Integer
 ## 15. 3Sum
 ## 20. Valid Parentheses
 ## 26. Remove Duplicates from Sorted Array
@@ -27,11 +29,14 @@ Update maxIndex variable when looping. Once maxIndex < current index, return fal
 ## 63. Unique Paths II
 ## 64. Minimum Path Sum
 ## 66. Plus One
+## 69. Sqrt(x)
+Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
 ## 80. Remove Duplicates from Sorted Array II
 Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon as nums[left - 2] != nums[right], make nums[left] = nums[right]
 ## 88. Merge Sorted Array
+## 97. Interleaving String
 ## 100. Same Tree
 ## 101. Symmetric Tree
 ## 102. Binary Tree Level Order Traversal
@@ -75,6 +80,7 @@ Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if
 ## 215. Kth Largest Element in an Array
 ## 217. Contains Duplicate
 Loop through array, use hashset to store. Once !set.add(n) => return true;
+## 221. Maximal Square
 ## 226. Invert Binary Tree
 ## 228. Summary Ranges
 ## 238. Product of Array Except Self
