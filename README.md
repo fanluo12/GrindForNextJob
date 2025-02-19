@@ -1,5 +1,6 @@
 ## 1. Two Sum
 Use hashmap to store value - index pair
+## 2. Add Two Numbers
 ## 3. Longest Substring Without Repeating Characters
 Sliding window, looping through right pointer and use hashset to store characters. Once character in the set, remove left pointer(starts from 0) until not in set
 ## 5. Longest Palindromic Substring
@@ -12,6 +13,7 @@ and this behavior is due to two's complement representation.
 ## 13. Roman to Integer
 ## 15. 3Sum
 ## 20. Valid Parentheses
+## 21. Merge Two Sorted Lists
 ## 26. Remove Duplicates from Sorted Array
 ## 27. Remove Element
 ## 28. Find the Index of the First Occurrence in a String
@@ -26,6 +28,8 @@ For each string, use char array to store frequency of each character and put {ch
 Update maxIndex variable when looping. Once maxIndex < current index, return false since it cannot reaches end
 ## 56. Merge Intervals
 ## 58. Length of Last Word
+## 61. Rotate List
+Make it to circular list
 ## 63. Unique Paths II
 ## 64. Minimum Path Sum
 ## 66. Plus One
@@ -55,6 +59,10 @@ Loop through prices array starting from index 1, as soon as current price greate
 ## 130. Surrounded Regions
 ## 133. Clone Graph
 ## 134. Gas Station
+## 138. Copy List with Random Pointer
+Deep copy use map
+## 141. Linked List Cycle
+one fast pointer and one slow pointer starting from head
 ## 149. Max Points on a Line
 Loop through each point, for each point inner loop through points except for it. There are 3 cases, 1st is duplicates, this will need to be count also. 2nd is vertical, which dy dx is 0. 3rd will need to calculate slope and put into map as double
 ## 150. Evaluate Reverse Polish Notation
