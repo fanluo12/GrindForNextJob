@@ -12,8 +12,10 @@ and this behavior is due to two's complement representation.
 ## 12. Integer to Roman
 ## 13. Roman to Integer
 ## 15. 3Sum
+## 19. Remove Nth Node From End of List
 ## 20. Valid Parentheses
 ## 21. Merge Two Sorted Lists
+## 25. Reverse Nodes in k-Group
 ## 26. Remove Duplicates from Sorted Array
 ## 27. Remove Element
 ## 28. Find the Index of the First Occurrence in a String
@@ -37,9 +39,12 @@ Make it to circular list
 Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
+## 79. Word Search
 ## 80. Remove Duplicates from Sorted Array II
 Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon as nums[left - 2] != nums[right], make nums[left] = nums[right]
+## 82. Remove Duplicates from Sorted List II
 ## 88. Merge Sorted Array
+## 92. Reverse Linked List II
 ## 97. Interleaving String
 ## 100. Same Tree
 ## 101. Symmetric Tree
