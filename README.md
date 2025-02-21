@@ -12,6 +12,7 @@ and this behavior is due to two's complement representation.
 ## 12. Integer to Roman
 ## 13. Roman to Integer
 ## 15. 3Sum
+## 17. Letter Combinations of a Phone Number
 ## 19. Remove Nth Node From End of List
 ## 20. Valid Parentheses
 ## 21. Merge Two Sorted Lists
@@ -39,6 +40,7 @@ Make it to circular list
 Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
+## 77. Combinations
 ## 79. Word Search
 ## 80. Remove Duplicates from Sorted Array II
 Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon as nums[left - 2] != nums[right], make nums[left] = nums[right]
@@ -102,6 +104,7 @@ Use int array to store s.charAt(i) - 'a'
 ## 274. H-Index
 Sort and looping through new array, once current value >= length - current index, return length - current index
 ## 290. Word Pattern
+## 300. Longest Increasing Subsequence
 ## 322. Coin Change
 ## 344. Reverse String
 ## 347. Top K Frequent Elements
