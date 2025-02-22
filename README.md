@@ -22,6 +22,7 @@ and this behavior is due to two's complement representation.
 ## 28. Find the Index of the First Occurrence in a String
 Loop through string, for each index, use while loop to update needle index starting from 0, once finish updating, check if index ends at tail position of needle
 ## 35. Search Insert Position
+## 36. Valid Sudoku
 ## 42. Trapping Rain Water
 Two pointers starting from 0 and length - 1 index
 ## 45. Jump Game II
@@ -101,6 +102,8 @@ Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 238. Product of Array Except Self
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
+## 271. Encode and Decode Strings
+Original list of string: ["Hello", "World"], encoded => "5#Hello5#World"
 ## 274. H-Index
 Sort and looping through new array, once current value >= length - current index, return length - current index
 ## 290. Word Pattern
@@ -115,6 +118,7 @@ Put all first k element in nums1 and nums2[0] into pq, then updating elements in
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
 ## 392. Is Subsequence
 ## 459. Repeated Substring Pattern
+## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
 
