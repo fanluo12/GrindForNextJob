@@ -41,6 +41,7 @@ Make it to circular list
 Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
+## 76. Minimum Window Substring
 ## 77. Combinations
 ## 79. Word Search
 ## 80. Remove Duplicates from Sorted Array II
@@ -75,6 +76,8 @@ one fast pointer and one slow pointer starting from head
 Loop through each point, for each point inner loop through points except for it. There are 3 cases, 1st is duplicates, this will need to be count also. 2nd is vertical, which dy dx is 0. 3rd will need to calculate slope and put into map as double
 ## 150. Evaluate Reverse Polish Notation
 ## 151. Reverse Words in a String
+## 155. Min Stack
+Use two stack, one regular stack and one min stack to trace minimum element
 ## 162. Find Peak Element
 ## 167. Two Sum II - Input Array Is Sorted
 ## 169. Majority Element
@@ -100,6 +103,7 @@ Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 226. Invert Binary Tree
 ## 228. Summary Ranges
 ## 238. Product of Array Except Self
+## 239. Sliding Window Maximum
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
 ## 271. Encode and Decode Strings
@@ -121,6 +125,8 @@ Use integer array to store frequency of all characters in magazine. Looping thro
 ## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
+## 739. Daily Temperatures
+Use stack to push [value, index] pairs
 
 
 
