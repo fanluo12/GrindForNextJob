@@ -21,6 +21,7 @@ and this behavior is due to two's complement representation.
 ## 27. Remove Element
 ## 28. Find the Index of the First Occurrence in a String
 Loop through string, for each index, use while loop to update needle index starting from 0, once finish updating, check if index ends at tail position of needle
+## 33. Search in Rotated Sorted Array
 ## 35. Search Insert Position
 ## 36. Valid Sudoku
 ## 42. Trapping Rain Water
@@ -41,6 +42,7 @@ Make it to circular list
 Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
+## 74. Search a 2D Matrix
 ## 76. Minimum Window Substring
 ## 77. Combinations
 ## 79. Word Search
@@ -125,8 +127,13 @@ Use integer array to store frequency of all characters in magazine. Looping thro
 ## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
+## 704. Binary Search
+if current length is 1, like [1], cannot use while (left < right)
 ## 739. Daily Temperatures
 Use stack to push [value, index] pairs
+## 853. Car Fleet
+Put current index and spped pair to an array and sort by ascending order of index. For each one, use stack to store expected time with double value. Once next value is <= stack.peek(), which means faster car will catch up previous at some point of time, don't do anything, else push to stack
+## 875. Koko Eating Bananas
 
 
 
