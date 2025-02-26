@@ -38,6 +38,8 @@ Make it to circular list
 ## 63. Unique Paths II
 ## 64. Minimum Path Sum
 ## 66. Plus One
+## 67. Add Binary
+Like question two
 ## 69. Sqrt(x)
 Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
@@ -70,6 +72,7 @@ Loop through prices array starting from index 1, as soon as current price greate
 ## 130. Surrounded Regions
 ## 133. Clone Graph
 ## 134. Gas Station
+## 136. Single Number
 ## 138. Copy List with Random Pointer
 Deep copy use map
 ## 141. Linked List Cycle
@@ -87,6 +90,8 @@ Declare majority number as nums[0] and count as 1, looping starts from index 1, 
 ## 189. Rotate Array
 nums = "----->-->"; k =3 result = "-->----->";
 reverse "----->-->" we can get "<--<-----" reverse "<--" we can get "--><-----" reverse "<-----" we can get "-->----->"
+## 190. Reverse Bits
+## 191. Number of 1 Bits
 ## 198. House Robber
 Use 1D dp array to update socre, dp[0] = nums[0], dp[1] = Math.max(nums[0], nums[1]), starting from index 2, dp[i] = max(dp[i] + nums[i - 2], dp[i - 1]). Note for case [2, 1, 1, 2], output is 4 for index 0 & 3. Not adjacent meaning dp[1] is max(nums[0], nums[1) instead of nums[1]
 ## 199. Binary Tree Right Side View
