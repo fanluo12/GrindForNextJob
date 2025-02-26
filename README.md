@@ -102,7 +102,9 @@ Careful with cycle
 ## 204. Count Primes
 Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if it is false(definately true for 2), count ++, in the meantime, looping pivot j from 2 until i * j < n and makr rest of them in array as true
 ## 205. Isomorphic Strings
+## 208. Implement Trie (Prefix Tree)
 ## 209. Minimum Size Subarray Sum
+## 211. Design Add and Search Words Data Structure
 ## 215. Kth Largest Element in an Array
 ## 217. Contains Duplicate
 Loop through array, use hashset to store. Once !set.add(n) => return true;
