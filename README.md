@@ -119,6 +119,8 @@ Use int array to store s.charAt(i) - 'a'
 Original list of string: ["Hello", "World"], encoded => "5#Hello5#World"
 ## 274. H-Index
 Sort and looping through new array, once current value >= length - current index, return length - current index
+## 286. Walls and Gates
+BFS update distance
 ## 290. Word Pattern
 ## 300. Longest Increasing Subsequence
 ## 322. Coin Change
@@ -134,6 +136,7 @@ Use integer array to store frequency of all characters in magazine. Looping thro
 ## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
+## 695. Max Area of Island
 ## 704. Binary Search
 if current length is 1, like [1], cannot use while (left < right)
 ## 739. Daily Temperatures
