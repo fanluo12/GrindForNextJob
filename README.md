@@ -102,6 +102,7 @@ Careful with cycle
 ## 204. Count Primes
 Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if it is false(definately true for 2), count ++, in the meantime, looping pivot j from 2 until i * j < n and makr rest of them in array as true
 ## 205. Isomorphic Strings
+## 207. Course Schedule
 ## 208. Implement Trie (Prefix Tree)
 ## 209. Minimum Size Subarray Sum
 ## 211. Design Add and Search Words Data Structure
@@ -121,6 +122,8 @@ Original list of string: ["Hello", "World"], encoded => "5#Hello5#World"
 Sort and looping through new array, once current value >= length - current index, return length - current index
 ## 286. Walls and Gates
 BFS update distance
+## 287. Find the Duplicate Number
+Fast and slow pointers
 ## 290. Word Pattern
 ## 300. Longest Increasing Subsequence
 ## 322. Coin Change
@@ -132,6 +135,8 @@ Put all first k element in nums1 and nums2[0] into pq, then updating elements in
 ## 383. Ransom Note
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
 ## 392. Is Subsequence
+## 417. Pacific Atlantic Water Flow
+Use two array represents pacific and altantic. Use DFS to loop through and fill them
 ## 459. Repeated Substring Pattern
 ## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
@@ -144,6 +149,8 @@ Use stack to push [value, index] pairs
 ## 853. Car Fleet
 Put current index and spped pair to an array and sort by ascending order of index. For each one, use stack to store expected time with double value. Once next value is <= stack.peek(), which means faster car will catch up previous at some point of time, don't do anything, else push to stack
 ## 875. Koko Eating Bananas
+## 994. Rotting Oranges
+
 
 
 
