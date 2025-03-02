@@ -27,8 +27,11 @@ Loop through string, for each index, use while loop to update needle index start
 ## 42. Trapping Rain Water
 Two pointers starting from 0 and length - 1 index
 ## 45. Jump Game II
+## 48. Rotate Image
 ## 49. Group Anagrams
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
+## 50. Pow(x, n)
+Careful with overflow
 ## 55. Jump Game
 Update maxIndex variable when looping. Once maxIndex < current index, return false since it cannot reaches end
 ## 56. Merge Intervals
@@ -44,6 +47,7 @@ Like question two
 Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
+## 73. Set Matrix Zeroes
 ## 74. Search a 2D Matrix
 ## 76. Minimum Window Substring
 ## 77. Combinations
