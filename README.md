@@ -109,6 +109,7 @@ Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if
 ## 207. Course Schedule
 ## 208. Implement Trie (Prefix Tree)
 ## 209. Minimum Size Subarray Sum
+## 210. Course Schedule II
 ## 211. Design Add and Search Words Data Structure
 ## 215. Kth Largest Element in an Array
 ## 217. Contains Duplicate
@@ -120,6 +121,7 @@ Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 239. Sliding Window Maximum
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
+## 261. Graph Valid Tree
 ## 271. Encode and Decode Strings
 Original list of string: ["Hello", "World"], encoded => "5#Hello5#World"
 ## 274. H-Index
