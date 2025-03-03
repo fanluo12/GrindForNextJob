@@ -111,6 +111,7 @@ Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if
 ## 209. Minimum Size Subarray Sum
 ## 210. Course Schedule II
 ## 211. Design Add and Search Words Data Structure
+## 213. House Robber II
 ## 215. Kth Largest Element in an Array
 ## 217. Contains Duplicate
 Loop through array, use hashset to store. Once !set.add(n) => return true;
@@ -133,6 +134,7 @@ Fast and slow pointers
 ## 290. Word Pattern
 ## 300. Longest Increasing Subsequence
 ## 322. Coin Change
+## 323. Number of Connected Components in an Undirected Graph
 ## 344. Reverse String
 ## 347. Top K Frequent Elements
 Put all first k element in nums1 and nums2[0] into pq, then updating elements in nums2 to pq in while loop
@@ -147,11 +149,14 @@ Use two array represents pacific and altantic. Use DFS to loop through and fill 
 ## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
+## 684. Redundant Connection
 ## 695. Max Area of Island
 ## 704. Binary Search
 if current length is 1, like [1], cannot use while (left < right)
 ## 739. Daily Temperatures
 Use stack to push [value, index] pairs
+## 746. Min Cost Climbing Stairs
+## 787. Cheapest Flights Within K Stops
 ## 853. Car Fleet
 Put current index and spped pair to an array and sort by ascending order of index. For each one, use stack to store expected time with double value. Once next value is <= stack.peek(), which means faster car will catch up previous at some point of time, don't do anything, else push to stack
 ## 875. Koko Eating Bananas
