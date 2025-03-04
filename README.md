@@ -38,6 +38,7 @@ Update maxIndex variable when looping. Once maxIndex < current index, return fal
 ## 58. Length of Last Word
 ## 61. Rotate List
 Make it to circular list
+## 62. Unique Paths
 ## 63. Unique Paths II
 ## 64. Minimum Path Sum
 ## 66. Plus One
@@ -56,6 +57,7 @@ Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointe
 Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon as nums[left - 2] != nums[right], make nums[left] = nums[right]
 ## 82. Remove Duplicates from Sorted List II
 ## 88. Merge Sorted Array
+## 91. Decode Ways
 ## 92. Reverse Linked List II
 ## 97. Interleaving String
 ## 100. Same Tree
@@ -85,6 +87,8 @@ one fast pointer and one slow pointer starting from head
 Loop through each point, for each point inner loop through points except for it. There are 3 cases, 1st is duplicates, this will need to be count also. 2nd is vertical, which dy dx is 0. 3rd will need to calculate slope and put into map as double
 ## 150. Evaluate Reverse Polish Notation
 ## 151. Reverse Words in a String
+## 152. Maximum Product Subarray
+maxProd & minProd
 ## 155. Min Stack
 Use two stack, one regular stack and one min stack to trace minimum element
 ## 162. Find Peak Element
@@ -149,6 +153,8 @@ Use two array represents pacific and altantic. Use DFS to loop through and fill 
 ## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
+## 647. Palindromic Substrings
+Similar to question 5
 ## 684. Redundant Connection
 ## 695. Max Area of Island
 ## 704. Binary Search
@@ -161,6 +167,8 @@ Use stack to push [value, index] pairs
 Put current index and spped pair to an array and sort by ascending order of index. For each one, use stack to store expected time with double value. Once next value is <= stack.peek(), which means faster car will catch up previous at some point of time, don't do anything, else push to stack
 ## 875. Koko Eating Bananas
 ## 994. Rotting Oranges
+## 1584. Min Cost to Connect All Points
+Use pq to store [index, cost] pair and count to update current counted points
 
 
 
