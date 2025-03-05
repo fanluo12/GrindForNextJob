@@ -1,4 +1,4 @@
-# 133
+# 130
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
