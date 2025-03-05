@@ -8,6 +8,7 @@ Sliding window, looping through right pointer and use hashset to store character
 Key point is testing overflow for case 1534236469. When reversing finishes, it becomes 964632435 which exceeds 2147483647, so When a number exceeds [-2^31 - 1, 2^31 - 1] in Java, it wraps around into the negative range starting from 
 and this behavior is due to two's complement representation.
 ## 9. Palindrome Number
+## 10. Regular Expression Matching
 ## 11. Container With Most Water
 ## 12. Integer to Roman
 ## 13. Roman to Integer
@@ -32,6 +33,8 @@ Two pointers starting from 0 and length - 1 index
 For each string, use char array to store frequency of each character and put {charArray.toString, string} to HashMap
 ## 50. Pow(x, n)
 Careful with overflow
+## 53. Maximum Subarray
+Use curSum to loop through array, once current sum is less than current value, raplace it
 ## 55. Jump Game
 Update maxIndex variable when looping. Once maxIndex < current index, return false since it cannot reaches end
 ## 56. Merge Intervals
@@ -150,6 +153,7 @@ Use integer array to store frequency of all characters in magazine. Looping thro
 ## 417. Pacific Atlantic Water Flow
 Use two array represents pacific and altantic. Use DFS to loop through and fill them
 ## 459. Repeated Substring Pattern
+## 518. Coin Change II
 ## 567. Permutation in String
 ## 637. Average of Levels in Binary Tree
 Using level order traversal, note that for each level, define a double variable to calculate sum for each level
@@ -163,10 +167,13 @@ if current length is 1, like [1], cannot use while (left < right)
 Use stack to push [value, index] pairs
 ## 746. Min Cost Climbing Stairs
 ## 787. Cheapest Flights Within K Stops
+## 846. Hand of Straights
 ## 853. Car Fleet
 Put current index and spped pair to an array and sort by ascending order of index. For each one, use stack to store expected time with double value. Once next value is <= stack.peek(), which means faster car will catch up previous at some point of time, don't do anything, else push to stack
 ## 875. Koko Eating Bananas
 ## 994. Rotting Oranges
+## 1143. Longest Common Subsequence
+2D dp array
 ## 1584. Min Cost to Connect All Points
 Use pq to store [index, cost] pair and count to update current counted points
 
