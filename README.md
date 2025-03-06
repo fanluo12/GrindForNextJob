@@ -1,4 +1,4 @@
-# 130
+# 135
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -39,6 +39,7 @@ Use curSum to loop through array, once current sum is less than current value, r
 ## 55. Jump Game
 Update maxIndex variable when looping. Once maxIndex < current index, return false since it cannot reaches end
 ## 56. Merge Intervals
+## 57. Insert Interval
 ## 58. Length of Last Word
 ## 61. Rotate List
 Make it to circular list
@@ -85,6 +86,7 @@ Loop through prices array starting from index 1, as soon as current price greate
 ## 136. Single Number
 ## 138. Copy List with Random Pointer
 Deep copy use map
+## 139. Word Break
 ## 141. Linked List Cycle
 one fast pointer and one slow pointer starting from head
 ## 149. Max Points on a Line
@@ -151,6 +153,8 @@ Put all first k element in nums1 and nums2[0] into pq, then updating elements in
 ## 383. Ransom Note
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
 ## 392. Is Subsequence
+## 416. Partition Equal Subset Sum
+Use 1D array to store boolean value of sum for each number
 ## 417. Pacific Atlantic Water Flow
 Use two array represents pacific and altantic. Use DFS to loop through and fill them
 ## 459. Repeated Substring Pattern
@@ -167,6 +171,7 @@ if current length is 1, like [1], cannot use while (left < right)
 ## 739. Daily Temperatures
 Use stack to push [value, index] pairs
 ## 746. Min Cost Climbing Stairs
+## 763. Partition Labels
 ## 787. Cheapest Flights Within K Stops
 ## 846. Hand of Straights
 ## 853. Car Fleet
@@ -177,6 +182,7 @@ Put current index and spped pair to an array and sort by ascending order of inde
 2D dp array
 ## 1584. Min Cost to Connect All Points
 Use pq to store [index, cost] pair and count to update current counted points
+## 1899. Merge Triplets to Form Target Triplet
 
 
 
