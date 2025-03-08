@@ -1,4 +1,4 @@
-# 135
+# 140
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -128,10 +128,13 @@ Loop through array, use hashset to store. Once !set.add(n) => return true;
 ## 221. Maximal Square
 ## 226. Invert Binary Tree
 ## 228. Summary Ranges
+## 253. Meeting Rooms II
+PQ to store end time. Once new-int intevals start time bigger than last meeting's end time, poll it out since no NEW room needed
 ## 238. Product of Array Except Self
 ## 239. Sliding Window Maximum
 ## 242. Valid Anagram
 Use int array to store s.charAt(i) - 'a'
+## 252. Meeting Rooms
 ## 261. Graph Valid Tree
 ## 271. Encode and Decode Strings
 Original list of string: ["Hello", "World"], encoded => "5#Hello5#World"
@@ -148,6 +151,7 @@ Fast and slow pointers
 ## 344. Reverse String
 ## 347. Top K Frequent Elements
 Put all first k element in nums1 and nums2[0] into pq, then updating elements in nums2 to pq in while loop
+## 355. Design Twitter
 ## 373. Find K Pairs with Smallest Sums
 ## 380. Insert Delete GetRandom O(1)
 ## 383. Ransom Note
@@ -157,6 +161,8 @@ Use integer array to store frequency of all characters in magazine. Looping thro
 Use 1D array to store boolean value of sum for each number
 ## 417. Pacific Atlantic Water Flow
 Use two array represents pacific and altantic. Use DFS to loop through and fill them
+## 435. Non-overlapping Intervals
+Sort right bound with ascending order, use a prevEnd variable to record previous end. Loop through form 1 index, if current interval left bound < prevEnd, merge
 ## 459. Repeated Substring Pattern
 ## 518. Coin Change II
 ## 567. Permutation in String
@@ -166,6 +172,7 @@ Using level order traversal, note that for each level, define a double variable 
 Similar to question 5
 ## 684. Redundant Connection
 ## 695. Max Area of Island
+## 703. Kth Largest Element in a Stream
 ## 704. Binary Search
 if current length is 1, like [1], cannot use while (left < right)
 ## 739. Daily Temperatures
