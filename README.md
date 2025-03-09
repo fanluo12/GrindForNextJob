@@ -1,4 +1,4 @@
-# 140
+# 145
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -13,6 +13,7 @@ and this behavior is due to two's complement representation.
 ## 11. Container With Most Water
 ## 12. Integer to Roman
 ## 13. Roman to Integer
+## 14. Longest Common Prefix
 ## 15. 3Sum
 ## 17. Letter Combinations of a Phone Number
 ## 19. Remove Nth Node From End of List
@@ -53,6 +54,8 @@ Like question two
 Binary search, when approaching middle pointer, careful with overflow, i.e. mid * mid may overflow
 ## 70. Climbing Stairs
 Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointers with 1 and starting from 2, arr[i] = arr[i - 1] + arr[i - 2]
+## 72. Edit Distance
+2D dp array, initialize row and column as word1 & word2 indexes
 ## 73. Set Matrix Zeroes
 ## 74. Search a 2D Matrix
 ## 76. Minimum Window Substring
@@ -89,6 +92,8 @@ Deep copy use map
 ## 139. Word Break
 ## 141. Linked List Cycle
 one fast pointer and one slow pointer starting from head
+## 143. Reorder List
+Use fast & slow pointers to find middle node, then reverse second half, finally merge two halves
 ## 149. Max Points on a Line
 Loop through each point, for each point inner loop through points except for it. There are 3 cases, 1st is duplicates, this will need to be count also. 2nd is vertical, which dy dx is 0. 3rd will need to calculate slope and put into map as double
 ## 150. Evaluate Reverse Polish Notation
@@ -116,6 +121,7 @@ Careful with cycle
 ## 204. Count Primes
 Use non-prime boolean array to store true/false from 0 to n. Starting from 2, if it is false(definately true for 2), count ++, in the meantime, looping pivot j from 2 until i * j < n and makr rest of them in array as true
 ## 205. Isomorphic Strings
+## 206. Reverse Linked List
 ## 207. Course Schedule
 ## 208. Implement Trie (Prefix Tree)
 ## 209. Minimum Size Subarray Sum
@@ -144,6 +150,7 @@ Sort and looping through new array, once current value >= length - current index
 BFS update distance
 ## 287. Find the Duplicate Number
 Fast and slow pointers
+## 289. Game of Life
 ## 290. Word Pattern
 ## 300. Longest Increasing Subsequence
 ## 322. Coin Change
