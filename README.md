@@ -1,10 +1,11 @@
-# 145
+# 149
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
 ## 3. Longest Substring Without Repeating Characters
 Sliding window, looping through right pointer and use hashset to store characters. Once character in the set, remove left pointer(starts from 0) until not in set
 ## 5. Longest Palindromic Substring
+## 6. Zigzag Conversion
 ## 7. Reverse Integer
 Key point is testing overflow for case 1534236469. When reversing finishes, it becomes 964632435 which exceeds 2147483647, so When a number exceeds [-2^31 - 1, 2^31 - 1] in Java, it wraps around into the negative range starting from 
 and this behavior is due to two's complement representation.
@@ -37,6 +38,7 @@ For each string, use char array to store frequency of each character and put {ch
 Careful with overflow
 ## 53. Maximum Subarray
 Use curSum to loop through array, once current sum is less than current value, raplace it
+## 54. Spiral Matrix
 ## 55. Jump Game
 Update maxIndex variable when looping. Once maxIndex < current index, return false since it cannot reaches end
 ## 56. Merge Intervals
@@ -64,6 +66,7 @@ Stair = 2 => [1, 1, 2]; Stair = 3 => [1, 1, 2, 3]; Initializing first two pointe
 ## 80. Remove Duplicates from Sorted Array II
 Use 2 pointers, left & right both starts from 0. From index 2 for left, as soon as nums[left - 2] != nums[right], make nums[left] = nums[right]
 ## 82. Remove Duplicates from Sorted List II
+## 86. Partition List
 ## 88. Merge Sorted Array
 ## 91. Decode Ways
 ## 92. Reverse Linked List II
@@ -194,6 +197,7 @@ Put current index and spped pair to an array and sort by ascending order of inde
 ## 994. Rotting Oranges
 ## 1143. Longest Common Subsequence
 2D dp array
+## 1249. Minimum Remove to Make Valid Parentheses
 ## 1584. Min Cost to Connect All Points
 Use pq to store [index, cost] pair and count to update current counted points
 ## 1899. Merge Triplets to Form Target Triplet
