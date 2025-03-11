@@ -1,4 +1,4 @@
-# 149
+# 150
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -189,6 +189,7 @@ if current length is 1, like [1], cannot use while (left < right)
 Use stack to push [value, index] pairs
 ## 746. Min Cost Climbing Stairs
 ## 763. Partition Labels
+## 778. Swim in Rising Water
 ## 787. Cheapest Flights Within K Stops
 ## 846. Hand of Straights
 ## 853. Car Fleet
