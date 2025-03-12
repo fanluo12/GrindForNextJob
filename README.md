@@ -1,4 +1,4 @@
-# 150
+# 151
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -25,6 +25,7 @@ and this behavior is due to two's complement representation.
 ## 27. Remove Element
 ## 28. Find the Index of the First Occurrence in a String
 Loop through string, for each index, use while loop to update needle index starting from 0, once finish updating, check if index ends at tail position of needle
+## 30. Substring with Concatenation of All Words
 ## 33. Search in Rotated Sorted Array
 ## 35. Search Insert Position
 ## 36. Valid Sudoku
