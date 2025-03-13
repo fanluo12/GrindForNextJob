@@ -1,4 +1,4 @@
-# 152
+# 153
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -168,6 +168,7 @@ Put all first k element in nums1 and nums2[0] into pq, then updating elements in
 ## 383. Ransom Note
 Use integer array to store frequency of all characters in magazine. Looping through ransomNote array, once a characte frequency is not 0, return false, else return true
 ## 392. Is Subsequence
+## 404. Sum of Left Leaves
 ## 416. Partition Equal Subset Sum
 Use 1D array to store boolean value of sum for each number
 ## 417. Pacific Atlantic Water Flow
