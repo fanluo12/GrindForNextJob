@@ -1,4 +1,4 @@
-# 153
+# 154
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -79,6 +79,7 @@ Use queue to store all the nodes, for each level, get queue size first, then loo
 ## 104. Maximum Depth of Binary Tree
 BFS update depth
 ## 112. Path Sum
+## 118. Pascal's Triangle
 ## 120. Triangle
 [4, 1, 8, 3, 0] -> []
 ## 121. Best Time to Buy and Sell Stock
