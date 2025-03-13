@@ -1,4 +1,4 @@
-# 151
+# 152
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -202,6 +202,7 @@ Put current index and spped pair to an array and sort by ascending order of inde
 ## 1249. Minimum Remove to Make Valid Parentheses
 ## 1584. Min Cost to Connect All Points
 Use pq to store [index, cost] pair and count to update current counted points
+## 1851. Minimum Interval to Include Each Query
 ## 1899. Merge Triplets to Form Target Triplet
 
 
