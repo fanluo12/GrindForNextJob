@@ -1,4 +1,4 @@
-# 154
+# 155
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -99,6 +99,7 @@ Deep copy use map
 one fast pointer and one slow pointer starting from head
 ## 143. Reorder List
 Use fast & slow pointers to find middle node, then reverse second half, finally merge two halves
+## 146. LRU Cache
 ## 149. Max Points on a Line
 Loop through each point, for each point inner loop through points except for it. There are 3 cases, 1st is duplicates, this will need to be count also. 2nd is vertical, which dy dx is 0. 3rd will need to calculate slope and put into map as double
 ## 150. Evaluate Reverse Polish Notation
