@@ -1,4 +1,4 @@
-# 155
+# 157
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -189,6 +189,8 @@ Similar to question 5
 ## 703. Kth Largest Element in a Stream
 ## 704. Binary Search
 if current length is 1, like [1], cannot use while (left < right)
+## 709. To Lower Case
+cast char
 ## 739. Daily Temperatures
 Use stack to push [value, index] pairs
 ## 746. Min Cost Climbing Stairs
@@ -200,6 +202,8 @@ Use stack to push [value, index] pairs
 Put current index and spped pair to an array and sort by ascending order of index. For each one, use stack to store expected time with double value. Once next value is <= stack.peek(), which means faster car will catch up previous at some point of time, don't do anything, else push to stack
 ## 875. Koko Eating Bananas
 ## 994. Rotting Oranges
+## 1010. Pairs of Songs With Total Durations Divisible by 60
+Use remainder array to store remainders. If 30 % 60 is 30, then we need another 30 to form a complement
 ## 1143. Longest Common Subsequence
 2D dp array
 ## 1249. Minimum Remove to Make Valid Parentheses
