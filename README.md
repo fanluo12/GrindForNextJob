@@ -1,4 +1,4 @@
-# 157
+# 158
 ## 1. Two Sum
 Use hashmap to store value - index pair
 ## 2. Add Two Numbers
@@ -148,6 +148,7 @@ PQ to store end time. Once new-int intevals start time bigger than last meeting'
 Use int array to store s.charAt(i) - 'a'
 ## 252. Meeting Rooms
 ## 261. Graph Valid Tree
+## 269. Alien Dictionary
 ## 271. Encode and Decode Strings
 Original list of string: ["Hello", "World"], encoded => "5#Hello5#World"
 ## 274. H-Index
